@@ -48,7 +48,7 @@
         navigation: false,
         pagination: true,
         itemsCustom : [
-	        [700, 1],
+	        [600, 1],
 	     ],
         navigationText: false,
         autoPlay: true,
