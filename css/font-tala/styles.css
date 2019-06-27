@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "font-tala";
+  src:url("fonts/font-tala.eot");
+  src:url("fonts/font-tala.eot?#iefix") format("embedded-opentype"),
+    url("fonts/font-tala.woff") format("woff"),
+    url("fonts/font-tala.ttf") format("truetype"),
+    url("fonts/font-tala.svg#font-tala") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[data-icon]:before {
+  font-family: "font-tala" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'font-tala' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.icon-enterp:before {
+  content: "\61";
+}
+.icon-joke:before {
+  content: "\62";
+}
+.icon-pizza2:before {
+  content: "\63";
+}
+.icon-pizza3:before {
+  content: "\64";
+}
+.icon-project:before {
+  content: "\65";
+}
+.icon-shower:before {
+  content: "\66";
+}
+.icon-travel:before {
+  content: "\67";
+}
+.icon-videogames:before {
+  content: "\68";
+}
