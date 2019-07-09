@@ -50,7 +50,7 @@
         itemsCustom : [
 	        [600, 1],
 	     ],
-        itemsMobile: [600, 1], //testing for mobile adjustment
+        itemsMobile: [300, 1], //testing for mobile adjustment
         navigationText: false,
         autoPlay: true,
         autoPlayInterval: 3000,
