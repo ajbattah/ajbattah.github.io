@@ -1223,7 +1223,7 @@ header .logo a {
 	display: block;
 	width: 100%;
 	font-family: "poppins-medium", sans-serif;
-	font-size: 1.2rem;
+	font-size: 1.5rem;
 	position: absolute;
 	top: 100%;
 	left: 0;
@@ -1233,7 +1233,7 @@ header .logo a {
 .main-navigation {
 	background: #000000;
 	padding: 24px 30px 42px;
-	margin: 0;
+	margin: 10;
 	width: 100%;
 	height: auto;
 	clear: both;
