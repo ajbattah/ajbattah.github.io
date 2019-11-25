@@ -1098,7 +1098,7 @@ header .row {
 header .top-bar {
 	display: block;
 	/*background: #000000;*/
-	min-width: 100px;
+	min-width: 150px;
 	min-height: 44px;
 	position: absolute;
 	left: 90px;
@@ -1233,7 +1233,7 @@ header .logo a {
 .main-navigation {
 	background: #000000;
 	padding: 24px 30px 42px;
-	margin: 40;
+	margin: 0;
 	width: 100%;
 	height: auto;
 	clear: both;
